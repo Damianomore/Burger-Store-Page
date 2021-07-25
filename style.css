@@ -70,12 +70,15 @@ header {
     align-items: center;
     justify-content: center;
     height: 95%;
-    background-image: url(./Images/download\ \(1\).jpg);
+    background-image: url(./Images/nav-burger.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
 #main {
+    width: 100%;
+}
+
+#main-section-1 {
     width: 100%;
     display: flex;
     align-items: center;
@@ -84,6 +87,7 @@ header {
 
 #main-about-div {
     margin-left: 20%;
+    margin-right: 5rem;
 }
 
 #main-about-heading {
@@ -94,7 +98,6 @@ header {
 }
 
 #main-about-p {
-    width: 30%;
     font-family: "Dancing Script";
     font-size: 1.5rem;
 
@@ -108,4 +111,23 @@ header {
     background-color: white;
 
     border-radius: 7px;
+}
+#main-img-div {
+    margin-right: 40rem;
+    margin-top: 5rem;
+}
+#main-img {
+    height: 26rem;
+    box-shadow:  rgb(255, 255, 255) 15px -15px 0px -4px, rgb(70, 214, 126) 16px -16px;
+}
+
+#array-button-div {
+    display: flex;
+}
+
+#main-section-2 {
+    
+}
+.array-button-selector {
+    margin: 0rem 1rem;
 }
