@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+#head-main-list {
+    list-style: none;
+    display: flex;
+}
+
+#contact-info-list {
+    list-style: none;
+    display: flex;
+}
+
+.body-navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+#nav-icon {
+    height: 4rem;
+}
+
+.head-main-list-item {
+    font-family: "Roboto Mono";
+    color: white;
+    margin: 0 1rem;
+}
+
+#nav-total-button {
+    background-color: black;
+    border: white solid 1px;
+    font-family: "Roboto Mono";
+    color: white;
+    padding: 0.5rem;
+    border-radius: 7px;
+    font-size: 1.05rem;
+}
+
+#title {
+    font-family: "Dancing Script";
+    font-size: 6rem;
+    color: white;
+
+}
+
+#title-button {
+    background-color: black;
+    border: white solid 1px;
+    padding: 1rem 2rem; 
+    font-family: "Dancing Script";
+    font-size: 2rem;
+    color: white;
+    border-radius: 7px;
+}
+
+#title-button:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    background-image: url(./Images/download\ \(1\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#main-about-div {
+    margin-left: 20%;
+}
+
+#main-about-heading {
+    font-family: "Dancing Script";
+    font-size: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+#main-about-p {
+    width: 30%;
+    font-family: "Dancing Script";
+    font-size: 1.5rem;
+
+}
+
+#main-about-button {
+    border: black solid 1px;
+    padding: 0rem 1.5rem; 
+    font-family: "Dancing Script";
+    font-size: 2rem;
+    background-color: white;
+
+    border-radius: 7px;
+}
